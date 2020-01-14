@@ -1,0 +1,81 @@
+.skill-box {
+	position: absolute;
+	top: 1245px;
+	left: 600px;
+}
+.skill-box > .skills-circle > ul {
+	padding: 0;
+}
+.skill-box > .skills-circle > ul > li {
+	width: 150px;
+	height: 150px;
+	background-color: #ddd;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 100px;
+}
+.skill-box > .skills-circle > ul > li:last-child {
+	margin-right: 0;
+}
+.skill-box > .skills-circle > ul > li > span {
+	color: #000;
+	font-size: 40px;
+}
+.skill-box > .skills-circle > ul > li > span.text, .skill-box > .skills-circle > ul > li > span ~ b {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	margin-top: -8px;
+	z-index: 1;
+}
+.skill-box > .skills-circle > ul > li > span.text ~ b, .skill-box > .skills-circle > ul > li > span ~ b ~ b {
+	font-weight: normal;
+	margin-top: 8px;
+}
+.skill-box > .skills-circle > ul > li > span.bar-circle-right, .skill-box > .skills-circle > ul > li > span.bar-circle-left {
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #2d4299;
+	clip: rect(0, 75px, 150px, 0);
+}
+.skill-box > .skills-circle > ul > li > span.bar-circle-left {
+	background: #ddd;
+}
+.skill-box > .skills-circle > ul > li > span.bar-circle-cover {
+	display: block;
+	width: 85%;
+	height: 85%;
+	border-radius: 50%;
+	background-color: #eee;
+	z-index: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+}
+.skill-box > .skills-circle > ul > .skill_ps
+ > span.bar-circle-right {
+	background: #2d4299;
+}
+
+.skill-box > .skills-circle > ul > .skill_ai
+ > span.bar-circle-right{
+	background: #e37c39;
+}
+
+.skill-box > .skills-circle > ul > .skill_m
+ > span.bar-circle-right{
+	background: #e7282c;
+}
+
+

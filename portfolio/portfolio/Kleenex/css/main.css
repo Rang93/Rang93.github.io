@@ -1,0 +1,145 @@
+/* visual */
+.slider {
+    width: 100%;
+    height: 790px;
+    background: #a7d0e7;
+}
+.main_v {
+    width: 1054px;
+    height: 790px;
+    background: url(../img/visual_img.png) no-repeat center;
+    margin: 0 auto;
+}
+
+/* mainContents */
+.container1 {
+	padding-top: 100px;
+}
+.box_width {
+	position: relative;
+}
+.mcon_tit {
+    text-align: center;
+}
+.mcon_tit h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.container1 .more {
+	float: right;
+	font-size: 20px;
+	font-weight: 700;
+	background: url(../img/more.png) no-repeat right center;
+	position: absolute;
+	top: 56px;
+	right: 30px;
+	padding-right: 33px;
+}
+.container1 .mcon1 {
+	margin-bottom: 150px;
+}
+.container1 .mcon1 .list_wrap {}
+.container1 .mcon1 .list_wrap > li {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.container1 .mcon1 .list_wrap > li img {
+	margin-bottom: 20px;
+}
+.container1 .mcon1 .list_wrap > li strong {
+    margin-bottom: 50px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	height: 45px;
+	
+}
+.banner {
+    width: 100%;
+    height: 203px;
+    background: url(../img/banner.png) no-repeat center top;
+    margin-bottom: 200px;
+}
+.banner .banner_txt {
+    padding-top: 55px;
+    text-align: center;
+    color: #fff;
+}
+.banner .banner_txt h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner .banner_txt p {
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.mcon {
+    margin-bottom: 200px;
+}
+.mcon .mcon2 {
+    float: left;
+}
+.mcon .mcon2 > a {
+    display:block;
+    width: 561px;
+    height: 444px;
+    background: url(../img/con_img.png) no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+.mcon2 .mcon2_txt {
+    width: 561px;
+    height: 116px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+.mcon2 .mcon2_txt h4 {
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+.mcon2 .mcon2_txt p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.mcon2 .mcon2_txt a {
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    right: 25px;
+    top: 72px;
+}
+
+.mcon3 {
+    float: left;
+    width: 561px;
+    margin-left: 38px;
+}
+.mcon3 li {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

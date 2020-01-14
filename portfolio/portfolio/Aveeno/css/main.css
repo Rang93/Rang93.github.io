@@ -1,0 +1,246 @@
+/* visual */
+.slider {
+	position: relative;
+}
+.img_wrap {
+	width: 100%;
+	height: 706px;
+	position: relative;
+}
+.main_v {
+	width: 100%;
+	height: 706px;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main_v.v1 {background: url(../img/visual_indi1.png) no-repeat center;}
+.main_v.v2 {background: url(../img/visual_indi2.png) no-repeat center;}
+
+.slider .indicator {
+    position: absolute;
+    bottom:30px;
+	left: 0;
+    text-align: center;
+    width: 100%;
+}
+.slider .indicator .indi {
+	display: inline-block;
+}
+.slider .indicator .indi li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: url(../img/indi_off.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    cursor: pointer;
+	margin-right: 25px;
+}
+.slider .indicator .indi li:last-child {margin-right: 0;}
+.slider .indicator .indi .on {
+    background: url(../img/indi_on.png) no-repeat;
+}
+
+.indicator #btnAuto {
+	display: inline-block;
+	background: url(../img/indi_Btn.png) no-repeat;
+	width: 15px;
+	height: 15px;
+	border: none;
+	cursor: pointer;
+	margin-right: 20px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.indicator #btnAuto.play {
+	background: url(../img/indi_Btn1.png) no-repeat;
+}
+
+/* mainContents */
+.mcon_tit {
+	text-align: center;
+}
+.mcon_tit h2 {
+	color: #2b1f15;
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.container1 .more {
+	float: right;
+	color: #2b1f15;
+	font-size: 25px;
+	font-weight: 500;
+	background: url(../img/more.png) no-repeat right center;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	padding-right: 28px;
+}
+
+.container1 {
+	padding-top: 100px;
+}
+.box_width {
+	position: relative;
+}
+.container1 .mcon1 {
+	margin-bottom: 190px;
+}
+.container1 .mcon1 .list_wrap {}
+.container1 .mcon1 .list_wrap > li {
+	width: 290px;
+	float: left;
+	text-align: center;
+}
+.container1 .mcon1 .list_wrap > li img {
+	margin-bottom: 30px;
+}
+.container1 .mcon1 .list_wrap > li strong {
+	margin-bottom: 20px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	height: 60px;
+	
+}
+.container1 .mcon1 .list_wrap > li span {
+	display: inline-block;
+	font-size: 15px;
+	width: 61px;
+	height: 23px;
+	background-color: #798d62;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 23px;
+}
+
+.container1 .mcon2 {
+	margin-bottom: 200px;
+}
+.container1 .mcon2 .list_wrap > li {
+	width: 290px;
+	float: left;
+	text-align: center;
+}
+.container1 .mcon2 .list_wrap > li img {
+	margin-bottom: 26px;
+}
+.container1 .mcon2 .list_wrap > li strong {
+	margin-bottom: 20px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	height: 40px;
+	
+}
+.container1 .mcon2 .list_wrap > li span {
+	display: inline-block;
+	font-size: 15px;
+	width: 61px;
+	height: 23px;
+	background-color: #798d62;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 23px;
+}
+
+.container1 .mcon2 .list_wrap > li .laven {
+	background-color: #8285cb;
+}
+.container1 .mcon2 .list_wrap > li .chamo {
+	width: 71px;
+	background-color: #d0ae37;
+}
+.container1 .mcon2 .list_wrap > li .grape {
+	background-color: #e2635c;
+}
+.container1 .mcon2 .list_wrap > li .oatmeal {
+	background-color: #bd8f66;
+}
+
+.banner.box_width {}
+.banner .main_b {
+	background: url(../img/baby_oatmeal.png) no-repeat center top;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin-bottom: 200px;
+}
+.banner .main_b a {
+	height: 716px;
+	display: block;
+}
+.container1 .mcon3 {
+	margin-bottom: 153px;
+}
+.container1 .mcon3 .list_wrap > li {
+	width: 290px;
+	float: left;
+}
+.container1 .mcon3 .list_wrap > li img {
+	margin-bottom: 30px;
+}
+.container1 .mcon3 .list_wrap > li strong {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	height: 40px;
+}
+
+.container1 .mcon4 {
+	height: 438px;
+	margin-bottom: 60px;
+}
+.mcon4 .m_tit {
+	padding: 0 30px;
+	width: 500px;
+	float: left;
+}
+.mcon4 .m_tit .m_img1 iframe {
+	width: 500px;
+	height: 349px;
+}
+.mcon4 .m_tit:first-child {
+	margin-right: 40px;
+}
+.mcon4 .m_tit h2 {
+	float: left;
+	color: #2b1f15;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
