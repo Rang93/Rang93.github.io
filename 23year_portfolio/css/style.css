@@ -1,0 +1,494 @@
+/* mainContents */
+
+
+
+.project_list {
+	padding-top: 100px;
+	margin-bottom: 100px;	
+	/* min-height: 1200px;  */
+}
+.project_list li {
+	float: left;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-left: 131px;
+	position: relative;
+}
+.project_list li a {
+	display: block;  /* span 에 컬러를 주어 블럭처리 */
+	width: 519px;
+	height: 359px;
+	margin-bottom: 27px;
+}
+.project_list li img {}
+.project_list li h2 {
+	font-size: 24px;
+	font-weight: 400;
+    color: rgb(68, 68, 68);
+	margin-bottom: 5px;
+}
+.project_list li p {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Noto Sans KR;
+    color: rgb(99, 99, 99);
+}
+/*.project_list a:hover span {
+	width: 585px;
+	height: 404px;
+	background-color: rgba(254, 142, 32, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+} 학원_원본 코드 */
+
+/* project list_hover image */
+.project_list a:hover .hover1 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/01_Food%20digger_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover2 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/02_MASQ_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover3 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/03_renewal_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover4 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/04_hotsunglass_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover5 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/05_Brochure_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover6 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/06_Banner_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover7 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/07_Card_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.project_list a:hover .hover8 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/08_Booth_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+
+.project_list a:hover .hover9 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/09_7eleven_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover10 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/10_KANU_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover11 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/11_Kleenex_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover12 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/12_Aveeno_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover13 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/13_DROPS_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover14 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/14_EBS_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover15 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/15_NEWYEAR_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover16 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/16_Christmas_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover17 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/17_icon_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_list a:hover .hover18 {
+	width: 585px;
+	height: 404px;
+	background: url(../img/projects-list/18_polygon_hover.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+/* portfolio_03 */
+.sub_Kleenexlink {
+    width: 1200px;
+    text-align: center;
+    position: absolute;
+	left: 50%;
+	margin: -600px;
+	top: 1460px;
+} 
+.sub_Kleenexlink p a {
+	font-size: 28px;
+	font-weight: 500;
+	color: #fff;
+    background-color: #edbe64;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sub_Kleenexlink p a:hover {
+	text-decoration: underline;
+}
+
+/* portfolio_04 */
+.sub_aveenolink {
+	width: 1200px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin: -600px;
+	top: 1460px;
+}
+.sub_aveenolink p a {
+	font-size: 28px;
+	font-weight: 500;
+	color: #fff;
+    background-color: #edbe64;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sub_aveenolink p a:hover {
+	text-decoration: underline;
+}
+
+/* portfolio_05 */
+.sub_link {
+	width: 1200px;
+	left: 50%;
+	margin: -600px;
+	position: absolute;
+	top: 3950px;
+}
+.link_l {
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+.link_l h1 {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.link_l p a {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fe8e20;
+}
+.link_l p a:hover {
+	text-decoration: underline;
+}
+
+.link_r {
+	text-align: center;
+	float: left;
+	width: 50%;
+	
+}
+.link_r h1 {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.link_r p a {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fe8e20;
+}
+.link_r p a:hover {
+	text-decoration: underline;
+}
+
+
+/* paging */
+.paging_number {
+	text-align: center;
+	position: relative;
+}
+
+
+.Btn_l {
+	background: url(../img/arrow_left.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-indent: -9999px;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.Btn_r {
+	background: url(../img/arrow_right.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-indent: -9999px;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.paging {
+	width: auto;
+	display: inline-block;
+	position: relative;
+	left: 0;
+	top: -5px;
+}
+.paging .on {
+	color: #6a767e;
+    font-weight: bold;
+	border-bottom: 3px solid #6a767e;
+    padding-bottom: 5px;
+}
+.paging li {
+	display: inline-block;
+	height: 40px;
+	cursor: pointer;
+	font-size: 35px;
+    font-family: Chalkboard;
+	color: #9ea5a8;
+	margin: 0 50px;
+}
+
+
+
+.sub_img {
+	margin: 0 auto;
+}
+
+
+/* sub_contact */
+.contact {
+	width: 100%;
+	height: 955px;
+	background: url(../img/CONTACT.png) no-repeat center;
+	overflow: hidden;
+	text-indent: -9999px;
+    animation: contact ease 3s infinite;
+}
+@keyframes contact {
+	0% {transform:translateY(0);}
+	50% {transform:translateY(30px);}
+	100% {transform:translateY(0);}
+}
+
+
+/* sub_about me */
+.yoon {
+	margin: 0 auto;
+	width: 1200px;
+	/*font-size: 30px;
+	padding-top: 100px;*/
+	padding-bottom: 50px;
+} /* 상단에 이름을 적었던곳_지움 */
+
+.about {
+	width: 100%;
+	height: 2528px;
+	background: url(../img/about.png) no-repeat center;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.me {
+	background: url(../img/about_me.png) no-repeat;
+	width: 402px;
+	height: 764px;
+	position: absolute;
+	left: 50%;
+	top: 315px;
+	margin-left: -520px;
+	animation: me ease 3s infinite;
+}
+@keyframes me {
+	0% {transform:translateY(0);}
+	50% {transform:translateY(50px);}
+	100% {transform:translateY(0);}
+}
+
+
+
+/* sub_about me _ skill */
+.skill-box {
+	position: absolute;
+	top: 1310px;
+	left: 50%;
+	margin-left: -453px;
+}
+.skill-box > .skills-circle > ul {
+	padding: 0;
+}
+.skill-box > .skills-circle > ul > li {
+	width: 150px;
+	height: 150px;
+	background-color: #eee;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 222px;
+}
+.skill-box > .skills-circle > ul > li:last-child {
+	margin-right: 0;
+}
+.skill-box > .skills-circle > ul > li > span {
+	color: #000;
+	font-size: 35px;
+	font-weight: 700;
+}
+.skill-box > .skills-circle > ul > li > span.h_c {
+    text-align: center;
+    font-size: 25px;
+}
+
+.skill-box > .skills-circle > ul > li > span.text, .skill-box > .skills-circle > ul > li > span ~ b {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	margin-top: -2px;
+	z-index: 1;
+}
+.skill-box > .skills-circle > ul > li > span.text ~ b, .skill-box > .skills-circle > ul > li > span ~ b ~ b {
+	font-weight: normal;
+	margin-top: 8px;
+}
+.skill-box > .skills-circle > ul > li > span.bar-circle-right, .skill-box > .skills-circle > ul > li > span.bar-circle-left {
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #99ddc6;
+	clip: rect(0, 75px, 150px, 0);
+}
+.skill-box > .skills-circle > ul > li > span.bar-circle-left {
+	background: #eee;
+}
+.skill-box > .skills-circle > ul > li > span.bar-circle-cover {
+	display: block;
+	width: 85%;
+	height: 85%;
+	border-radius: 50%;
+	background-color: #fff;
+	z-index: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+}
+.skill-box > .skills-circle > ul > .skill_ps
+ > span.bar-circle-right {
+	background: #76e2bb;
+}
+
+.skill-box > .skills-circle > ul > .skill_ai
+ > span.bar-circle-right{
+	background: #fcd875;
+}
+
+.skill-box > .skills-circle > ul > .skill_html
+ > span.bar-circle-right{
+	background: #faa4a5;
+}

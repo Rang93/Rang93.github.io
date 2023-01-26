@@ -1,0 +1,297 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* reset */
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,th,td,form,fieldset,legend,input,label,textarea,select,button {margin: 0; padding: 0;}
+body,h1,h2,h3,h4,h5,h6 {font-size: 12px; font-family: Roboto Slab; color: #333;}
+a {text-decoration: none; color: rgb(187, 187, 187);}
+ul,ol,li {list-style: none;}
+img,fieldset {border: none; vertical-align: middle; /*padding-bottom: 50px;*/}
+strong,em,address {font-weight: normal; font-style: normal;}
+table {border-collapse: collapse;}
+
+/* common */
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* layout */
+.box_width {
+	width: 1400px;
+	margin: 0 auto;
+}
+#wrap {
+	min-width: 1500px;
+	position: relative;
+}
+/*#wrap .bg1 {
+    width: 235px;
+    height: 1273px;
+    background: url(../img/left_top.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 135px;
+}
+#wrap .bg2 {
+    width: 289px;
+    height: 1254px;
+    background: url(../img/right_top.png) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 135px;
+}
+#wrap .bg3 {
+    width: 342px;
+    height: 1330px;
+    background: url(../img/left_bottom.png) no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#wrap .bg4 {
+    width: 354px;
+    height: 1374px;
+    background: url(../img/right_bottom.png) no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#wrap .bg3_s {
+    width: 359px;
+    height: 842px;
+    background: url(../img/bg_3.png) no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#wrap .bg2_s {
+    width: 309px;
+    height: 707px;
+    background: url(../img/bg_2.png) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 125px;
+} 양 옆 이미지 넣는것 */
+
+
+#headerWrap {
+}
+#header {
+	width: 100%;
+	background-color: #f9f9f9;
+	padding-bottom: 80px;
+    padding-top: 50px;
+	/*position: relative;
+    padding-bottom: 10px; */
+}
+
+/* header */
+.logo {
+	/*width: 150px;
+	height: 40px;
+	position: absolute;
+	top: 15px;
+	left: 0; */
+	max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.gnb {
+	height: 34px;
+	text-align: center;
+
+}
+.gnb .g_list {
+	/*float: right;  */
+	padding-top: 50px;
+}
+.gnb .g_list li {
+	display: inline-block;
+}
+.gnb .g_list li a {
+	font-size: 30px;
+	font-weight: 400;
+    padding-right: 100px;
+}
+
+.gnb .g_list li:first-child a {}
+.gnb .g_list li:last-child a {
+	padding-right: 0px;
+}
+
+.gnb .g_list .on a {
+    font-weight: 400;
+	color: rgb(68, 68, 68);
+}
+
+
+.gnb .g_list li a:hover{}
+
+
+/* Contents */
+#Contents {
+	background-color: #fff;
+}
+
+.padding {
+    padding-bottom: 50px;
+    display: block;
+    overflow: hidden;
+	text-indent: -9999px;
+}
+
+#nav {}
+.port_list {
+	width: 1400px;
+	height: 150px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+    padding-top: 50px;
+}
+.port_list li {
+	position: relative;
+	float: left;
+	margin-top: 45px;
+}
+.port_list li:first-child a {
+	margin-left: 110px;
+}
+.port_list li:last-child a {
+	padding-right: 0;
+}
+
+.port_list li a {
+	position: relative;
+	color: #6a767e;
+	font-size: 30px;
+	font-weight: 500;  /* medium */
+    font-family: Bree Serif;
+	display: block;
+	padding-right: 130px;
+	z-index: 10;
+}
+
+.port_list li:hover:after,.port_list .on:after {
+	content: "";
+	width: 51px;
+	height: 4px;
+	background: url(../img/projects-list/click_hover1.png) no-repeat;
+	position: absolute;
+	left: 102px;
+	top: 45px;
+}
+
+/*.port_list li:hover:after,.port_list .on:after {
+	content: "";
+	width: 69px;
+	height: 5px;
+	background: url(../img/new%20click%20hover.png) no-repeat;
+	position: absolute;
+	left: 95px;
+	top: 45px;
+}*/
+
+
+.port_list .on a {
+	animation: move_tab ease 3s infinite;
+}
+.port_list .on:after {
+	animation: move_tab ease 3s infinite;
+}
+@keyframes move_tab {
+	0% {transform:translateY(0);}
+	50% {transform:translateY(15px);}
+	100% {transform:translateY(0);}
+}
+
+
+
+.port_list li:nth-child(2):after {
+	left: 65px;
+}
+.port_list li:nth-child(3):after {
+	left: 80px;
+}
+.port_list li:nth-child(4):after {
+	left: 33px;
+}
+
+.top_Btn{
+	clear: both;
+	display: block;
+	padding-bottom: 100px;
+	padding-top: 0px;
+	text-align: center;
+}
+
+.top_Btn a {
+	color: rgb(153, 153, 153);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.top_Btn .arrow{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* .top_Btn a {
+	width: 121px;
+	height: 102px;
+	background: url(../img/top_btn.png) no-repeat;
+	overflow: hidden;
+	text-indent: -9999px;
+	position: absolute;
+	right: 300px;
+	bottom: 150px;
+	animation: move ease 3s infinite;
+    padding-bottom: 40px;
+}  */
+
+@keyframes move {
+	0% {transform:translateY(0);}
+	50% {transform:translateY(20px);}
+	100% {transform:translateY(0);}
+}
+
+/* footer */
+#footerWrap {
+	/*padding-top: 100px;*/
+	background: #fff;
+}
+#footer {
+	padding-bottom: 30px;
+	height: 230px;
+}
+.f_logo {
+	text-align: center;
+	
+}
+/*.fo_txt {
+    margin-left: 30px;
+}*/
+.f_logo strong {
+    font-size: 20px;
+    color: #6a767e;
+    font-weight: 500;
+}
+.f_logo p {
+	font-size: 18px;
+    color: #6a767e;
+	font-weight: 400;
+}
+.f_logo span {
+	margin-bottom: 50px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 100%;
+	height: 0px;
+	padding-top: 50px;
+    
+}
