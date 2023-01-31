@@ -1,8 +1,7 @@
 /* main Contents */
 .project_list {
 	padding-top: 100px;
-	margin-bottom: 100px;	
-	/* min-height: 1200px;  */
+	padding-bottom: 100px;	
 }
 .project_list li {
 	float: left;
@@ -91,7 +90,11 @@
 /* sub_portfolio page_Contents */
 .sub_img {
 	margin: 0 auto;
-	margin-top: 100px;
+	padding-top: 50px;
+}
+
+.img_long {
+	padding-top: 100px;
 }
 
 
