@@ -12,8 +12,8 @@
 }
 .project_list li a {
 	display: block;  /* span 에 컬러를 주어 블럭처리 */
-	width: 519px;
-	height: 359px;
+	width: 425px;
+	height: 294px;
 	margin-bottom: 27px;
 }
 .project_list li img {}
