@@ -28,8 +28,6 @@ table {border-collapse: collapse;}
 	position: relative;
 }
 
-#headerWrap {}
-
 #header {
 	width: 100%;
 	background-color: #f9f9f9;
@@ -68,8 +66,6 @@ table {border-collapse: collapse;}
     padding-right: 100px;
 }
 
-.gnb .g_list li:first-child a {}
-
 .gnb .g_list li:last-child a {
 	padding-right: 0px;
 }
@@ -78,9 +74,6 @@ table {border-collapse: collapse;}
     font-weight: 400;
 	color: rgb(68, 68, 68);
 }
-
-.gnb .g_list li a:hover{}
-
 
 /* Contents */
 #Contents {
@@ -93,8 +86,6 @@ table {border-collapse: collapse;}
     overflow: hidden;
 	text-indent: -9999px;
 }
-
-#nav {}
 
 .port_list {
 	width: 1400px;
@@ -146,22 +137,3 @@ table {border-collapse: collapse;}
 	display: inline-block;
 	margin-right: 10px;
 }
-
-/* .top_Btn a {
-	width: 121px;
-	height: 102px;
-	background: url(../img/top_btn.png) no-repeat;
-	overflow: hidden;
-	text-indent: -9999px;
-	position: absolute;
-	right: 300px;
-	bottom: 150px;
-	animation: move ease 3s infinite;
-    padding-bottom: 40px;
-}  
-
-@keyframes move {
-	0% {transform:translateY(0);}
-	50% {transform:translateY(20px);}
-	100% {transform:translateY(0);}
-}  */
