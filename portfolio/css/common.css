@@ -7,7 +7,7 @@ a {text-decoration: none; color: rgb(187, 187, 187);}
 ul,ol,li {list-style: none;}
 img,fieldset {border: none; vertical-align: middle; /*padding-bottom: 50px;*/}
 strong,em,address {font-weight: normal; font-style: normal;}
-table {border-collapse: collapse;}
+table {border-collapse: collapse; }
 
 
 /* common */
