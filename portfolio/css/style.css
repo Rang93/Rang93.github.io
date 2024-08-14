@@ -110,3 +110,17 @@
 	height: 1080px;
 	background: url(../img/about.png) no-repeat center;
 }
+
+/* link txt */
+
+.link-txt-box {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.link-txt{
+	font-size: 20px;
+	font-family: Noto Sans KR;
+	color: #333;
+}
