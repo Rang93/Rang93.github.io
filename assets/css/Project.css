@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: sans-serif; color: #111; }
+
+/* Project */
+section {
+width: 100%;
+margin-bottom: 120px;
+}
+article {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.por_box {
+    padding-top: 160px;
+    display: grid;
+    gap: 32px;
+}
+.por_detail_tit {
+    display: grid;
+    gap: 16px;
+}
+.por_detail_tit h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.por_detail_tit h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.por_detail {
+    width: 100%;
+}
+.por_detail img {
+    width: 100%;
+    display: block;
+}
+
+/* back button */
+.back-btn {
+  display: flex;             /* 내부 아이콘 + 텍스트 가로 정렬 */
+  align-items: center;       /* 세로 중앙 */
+  justify-content: center;   /* 가로 중앙 */
+  gap: 8px;
+  margin: 0 auto 120px;       /* 버튼 자체 화면 중앙 + 아래 여백 */
+  padding: 8px 24px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;        /* 내용물에 맞춰 버튼 폭 */
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (max-width: 1400px) {
+  .por_detail_tit h1 {
+    padding-left: 30px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .por_box {
+    gap: 24px;
+  }
+  .por_detail_tit h1 {
+    padding-left: 20px;
+    font-size: 32px;
+  }
+}
