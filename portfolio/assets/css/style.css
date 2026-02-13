@@ -286,7 +286,7 @@ body {
   }
   
   .footer {
-      padding: 60px 40px;
+      padding: 60px 30px;
   }
   .footer-contact {
     display: flex;
@@ -437,7 +437,7 @@ body {
 }
 @media (max-width: 767px) {
   .sc-project {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 }
 .sc-project .headline {
