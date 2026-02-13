@@ -48,6 +48,32 @@
   src: url("../fonts/Pretendard-Bold.woff") format("woff");
   font-weight: 700;
 }
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -121,7 +147,7 @@ body {
   font-family: "Pretendard", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.2;
-  color: #333;
+  color: #111;
 }
 
 .blind {
@@ -182,7 +208,7 @@ body {
 
 .footer-contact {
   display: flex;
-  gap: 100px;
+  gap: 130px;
 }
 
 .contact-item {
@@ -452,7 +478,7 @@ body {
   font-weight: 500;
 }
 .sc-project .group-nav .sort-area button.on {
-  background: #333;
+  background: #111;
   color: #fff;
 }
 @media (max-width: 1023px) {
@@ -483,7 +509,7 @@ body {
 }
 .sc-project .group-nav .set-area button.active {
   font-weight: bold;
-  background: #333;
+  background: #111;
 }
 .sc-project .group-nav .set-area button.active rect {
   stroke: white;
@@ -493,7 +519,7 @@ body {
 @media (max-width: 1023px) {
   .sc-project .group-nav .sort-area button {
     padding: 6px 16px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width: 767px) {

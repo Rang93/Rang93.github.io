@@ -1,8 +1,4 @@
 $(function(){
-   
-    
-
-
 
     /**
      * @버튼종류에따른필터
@@ -42,11 +38,13 @@ $(function(){
     });
 
     $('.menu a').click(function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         var target = $(this).attr('href');
         $('html, body').animate({
             scrollTop: $(target).offset().top
         }, 500);
     });
+
+    
 
 });

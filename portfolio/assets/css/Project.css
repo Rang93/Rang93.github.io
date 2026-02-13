@@ -4,7 +4,7 @@ body { font-family: sans-serif; color: #111; }
 /* Project */
 section {
 width: 100%;
-margin-bottom: 120px;
+margin-bottom: 150px;
 }
 article {
     width: 100%;
@@ -21,8 +21,10 @@ article {
     gap: 16px;
 }
 .por_detail_tit h1 {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 500;
+    font-family: 'GMarketSans';
+    /* letter-spacing: -0.05em; */
 }
 .por_detail_tit h3 {
     font-size: 40px;
@@ -42,7 +44,7 @@ article {
   align-items: center;       /* 세로 중앙 */
   justify-content: center;   /* 가로 중앙 */
   gap: 8px;
-  margin: 0 auto 120px;       /* 버튼 자체 화면 중앙 + 아래 여백 */
+  margin: 0 auto 150px;       /* 버튼 자체 화면 중앙 + 아래 여백 */
   padding: 8px 24px;
   font-size: 24px;
   font-weight: 500;
@@ -58,7 +60,7 @@ article {
 
 @media (max-width: 1400px) {
   .por_detail_tit h1 {
-    padding-left: 30px;
+    padding-left: 40px;
     font-size: 40px;
   }
 }
