@@ -471,14 +471,15 @@ body {
 }
 .sc-project .group-nav .sort-area button {
   padding: 8px 20px;
-  color: #333;
+  color: #999;
   border: 1px solid #e5e5ec;
   border-radius: 5px;
   background: #fff;
-  font-weight: 500;
+  font-weight: 300;
 }
 .sc-project .group-nav .sort-area button.on {
   background: #111;
+  border: 1px solid #111;
   color: #fff;
 }
 @media (max-width: 1023px) {
@@ -682,7 +683,6 @@ body {
 }
 
 .sc-contact {
-  color: #333;
   padding: 0 130px;
 }
 @media (max-width: 767px) {
@@ -696,7 +696,7 @@ body {
   font-size: 28px;
   position: relative;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 500;
   word-break: keep-all;
   text-align: center;
 }
