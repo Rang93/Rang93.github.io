@@ -60,7 +60,7 @@ article {
 
 @media (max-width: 1400px) {
   .por_detail_tit h1 {
-    padding-left: 40px;
+    padding: 0px 40px;
     font-size: 40px;
   }
 }
