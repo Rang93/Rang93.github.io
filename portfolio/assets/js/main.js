@@ -45,6 +45,11 @@ $(function(){
         }, 500);
     });
 
-    
+    $('.logo a').click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
 
 });

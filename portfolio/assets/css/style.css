@@ -176,7 +176,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -202,7 +202,7 @@ body {
 
 .footer-title {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -0.05em;
 }
 
@@ -216,7 +216,7 @@ body {
   align-items: center;
   gap: 12px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .icon {
@@ -294,7 +294,6 @@ body {
     gap: 20px;
   }
   .contact-item {
-    font-size: 22px;
     font-weight: 400;
     gap: 12px;
   }
@@ -323,9 +322,6 @@ body {
 @media (max-width: 767px) {
   .header .group-header {
     height: 80px;
-  }
-  .header .group-header .logo {
-    font-size: 18px;
   }
   .header .group-header .btn-talk {
     font-size: 14px;
@@ -442,7 +438,7 @@ body {
 }
 .sc-project .headline {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 600;
   color: #111;
 }
 @media (max-width: 767px) {
@@ -696,7 +692,7 @@ body {
   font-size: 28px;
   position: relative;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
   word-break: keep-all;
   text-align: center;
 }
