@@ -12,9 +12,9 @@ article {
     margin: 0 auto;
 }
 .por_box {
-    padding-top: 160px;
+    padding-top: 120px;
     display: grid;
-    gap: 32px;
+    gap: 28px;
 }
 .por_detail_tit {
     display: grid;
@@ -56,6 +56,15 @@ article {
   width: 24px;
   height: 24px;
   object-fit: contain;
+}
+
+/* back button hover animation */
+.back-btn svg {
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.back-btn:hover svg {
+  transform: translateX(-10px); /* Move left by 10px */
 }
 
 @media (max-width: 1400px) {

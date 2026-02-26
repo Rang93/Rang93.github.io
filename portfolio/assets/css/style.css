@@ -177,7 +177,14 @@ body {
   align-items: center;
   position: relative;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.group-header h1 a:hover {
+  color: #000;
+}
+.group-header li a:hover {
+  color: #000;
 }
 
 /* Footer */
